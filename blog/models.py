@@ -5,7 +5,7 @@ class Blog(models.Model):
     title = models.CharField(max_length=100)
     body = models.TextField(default=None)
     image = models.ImageField(upload_to='images/')
-    pub_date = models.DateTimeField(default=timezone.now())
+    pub_date = models.DateTimeField(auto_now_add=True)
 
     def summary(self):
         return self.body[:100]
