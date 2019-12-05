@@ -1,0 +1,7 @@
+# .gitignore
+static/
+media/
+# portfolio/settings.py
+db.sqlite3
+.DS_Store
+portfolio/local_settings.py
