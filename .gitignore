@@ -1,5 +1,5 @@
 # .gitignore
-static/
+/static
 media/
 # portfolio/settings.py
 db.sqlite3
